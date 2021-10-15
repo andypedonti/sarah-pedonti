@@ -7,5 +7,9 @@
 } */
 
 section {
-    padding-top: 60px;
+    padding-top: 65px;
+}
+
+#navbarIcons{
+    float: right;
 }
