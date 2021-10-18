@@ -5,10 +5,11 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&amp;display=swap">
   <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar fixed-top navbar-expand-lg blue">
         <span class="navbar-brand" href="#">Sarah Pedonti</span>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
@@ -30,17 +31,17 @@
           </ul> 
         </div>
         <div class="navIcon">
-            <ul class="collapse navbar-collapse" id="navbarIcons">
-                <li class="nav-link">
-                    <a class="fa fa-envelope" href="mailto:sff809@mail.harvard.edu"></a>
+            <ul class="collapse navbar-collapse" id="navbarIcons" style="list-style-type: none;">
+                <li class="icon">
+                    <a class="fa fa-envelope fa-2x" href="mailto:sff809@mail.harvard.edu" style="color: #474747"></a>
                 </li>
-                <li class="nav-link">
+                <li class="icon">
                     <!--need href here-->
-                      <a class="fa fa-github"></a>
+                      <a class="fa fa-github fa-2x" href="https://twitter.com/Sff809" target="blank" rel="noopener" style="color: #474747"></a>
                 </li>
-                <li class="nav-link">
+                <li class="icon">
                   <!--need href here-->
-                    <a class="fa fa-twitter"></a>
+                    <a class="fa fa-twitter fa-2x" href="https://github.com/sarahpedonti" target="blank" rel="noopener" style="color: #474747"></a>
               </li>
             </ul>
         </div>
@@ -50,23 +51,28 @@
       <section id="about" class="home-section wg-about">
         <div class="container">
             <!--Bio pic with name, title, and school need to go here-->
-            <div class="row">
-                <div id="profile">
-                    <div class="col-12 col-lg-4">
-                         <img class="avatar avatar-circle" src="https://www.fillmurray.com/640/360"
-                            alt="avatar">
+            <div class="row justify-content-center" id="about">
+                <div id="col-lg-4 center">
+                    <div class="align-self-center">
+                         <img class="avatar avatar-circle" src="./docs/Head Shot.png"
+                            alt="avatar" class="center">
                     </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-lg-12 text-center" id="title">
                     <div class="portrait title">
                         <h2>Sarah F Pedonti</h2>
                         <h3>PhD Candidate</h3>
                         <h3>
-                            <a href="https://www.unc.edu" target="blank" rel="noopener">
+                            <a href="https://www.unc.edu" target="blank" rel="noopener" style="color: #474747">
                             <span>University of North Carolina Chapel Hill</span>
                             </a>
                         </h3>
                     </div>
                 </div>
             </div>
+            
             <div class="row">
                 <div class="column-12 col-lg-4 section-heading">
                     <h1>Biography</h1>
@@ -99,55 +105,182 @@
                  <div class="column-12 col-lg-4 section-heading">
                     <h1>Experience</h1>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-12 col-lg-12">
-                    <h2 class="experience">UNC Early Learning Lab</h2>
-                    <p>PI: Dr. Kathryn Leech<br>
-                        Graduate Research Assistant (7/20-current)<br>
-                        School of Education, University of North Carolina at Chapel Hill
-                    </p>
-                    <h3 class="responsibilities">Responsibilities</h3>
-                    <p>
-                        Help to develop, recruit for, clean, and analyze (latent profile analysis) a home learning (numeracy and literacy) environment survey for diverse rural families of preschoolers, in partnership with Purdue University. Help to clean, code, and analyze user data and an adult-child dyad language corpus derived from a dialogic reading “smart speaker” app developed in partnership with MIT and the Harvard Graduate School of Education’s Reach Every Reader project. Experience with Qualtrics, REDCap, CLAN, as well as R statistical software.   
-                    </p>
-                    <h2 class="experience">STEMIE Innovation for Inclusion in Early Education</h2>
-                    <p>PCo-PI: Dr. Chih-Ing Lim<br>
-                        Technical Assistance Specialist (5/20-8/21)<br>
-                        Frank Porter Graham Child Development Institute<br>
-                    </p>
-                    <h3 class="responsibilities">Responsibilities</h3>
-                    <p>
-                        Help to develop and disseminate dialogic reading technical assistance products for diverse families of children with disabilities to support their children’s STEM learning. Contributed to iterative design process for STEM-focused activities in partner “incubator sites”. Products include webinars, tip sheets, and blog posts.  
-                    </p>
-                    <h2 class="experience">The Targeted Reading Intervention</h2>
-                    <p>PI: Dr. Lynne Vernon Feagans<br>
-                        Frank Porter Graham Child Development Institute
-                    </p>
-                    <h3 class="responsibilities">Responsibilities</h3>
-                    <p>
-                        Assisted with data analysis and manuscript conceptualization and production. Experience with SAS, R, and Mplus. 
-                    </p>
-                    <h2 class="experience">The National Center on Early Childhood, Development Teaching & Learning</h2>
-                    <p>PI: Dr. Alison Metz
-                        Co-PI: Dr. Pam Winton
-                        Graduate Research Assistant 6/16-9/18
-                        Frank Porter Graham Child Development Institute
-                    </p>
-                    <h3 class="responsibilities">Responsibilities</h3>
-                    <p>
-                        Assisted in development and delivery of technical assistance activities and products (webinars, conferences, white papers) for the Head Start Disabilities Inclusion Network (HSDIN), and online Community of Practice (CoP) focused on support for disabilities coordinators in Head Start.
-                    </p>
-                    <h2 class="experience">Exploring Early Language and Executive Function in Deaf Preschoolers with Recent Cochlear Implants</h2>
-                    <p>PI: Dr. Laura Kuhn
-                        Bilingual Assessor 6/17-12/17
-                        Frank Porter Graham Child Development Institute
-                    </p>
-                    <h3 class="responsibilities">Responsibilities</h3>
-                    <p>
-                        Scheduled Spanish-speaking families and assisted in piloting the Spanish version of Executive Functioning (EF) Touch battery, a touch screen battery assessing executive functioning for preschoolers ages 4-5 years old.
-                    </p>
-            </div>
+            </div>          
+                <div class="col-12 col-lg-8">
+                    <div class="row experience">
+                        <div class="col py-2">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h4 class="card-title">
+                                        UNC Early Learning Lab
+                                    </h4>
+                                    <h4 class="card-title text-muted">
+                                        PI: Dr. Kathryn Leech<br>
+                                        Graduate Research Assistant (7/20-current)<br>
+                                        School of Education, University of North Carolina at Chapel Hill
+                                    </h4>
+                                </div>
+                                <div class="card-text">
+                                    <h5 class="responsibilities">
+                                        Responsibilities:
+                                    </h5>
+                                    <p>Help to develop, recruit for, clean, and analyze (latent profile analysis) a home learning (numeracy and literacy) environment survey for diverse rural families of preschoolers, in partnership with Purdue University. Help to clean, code, and analyze user data and an adult-child dyad language corpus derived from a dialogic reading “smart speaker” app developed in partnership with MIT and the Harvard Graduate School of Education’s Reach Every Reader project. Experience with Qualtrics, REDCap, CLAN, as well as R statistical software.   
+                                    </p>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    <div class="row experience">    
+                        <div class="col py-2">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h4 class="card-title">
+                                        STEMIE Innovation for Inclusion in Early Educationb
+                                    </h4>
+                                    <h4 class="card-title text-muted">
+                                        PCo-PI: Dr. Chih-Ing Lim<br>
+                                        Technical Assistance Specialist (5/20-8/21)<br>
+                                        Frank Porter Graham Child Development Institute
+                                    </h4>
+                                </div>
+                                <div class="card-text">
+                                    <h5 class="responsibilities">
+                                        Responsibilities:
+                                    </h5>
+                                    <p>
+                                    Help to develop and disseminate dialogic reading technical assistance products for diverse families of children with disabilities to support their children’s STEM learning. Contributed to iterative design process for STEM-focused activities in partner “incubator sites”. Products include webinars, tip sheets, and blog posts.  
+                                    </p>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row experience">    
+                        <div class="col py-2">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h4 class="card-title">
+                                        STEMIE Innovation for Inclusion in Early Educationb
+                                    </h4>
+                                    <h4 class="card-title text-muted">
+                                        PCo-PI: Dr. Chih-Ing Lim<br>
+                                        Technical Assistance Specialist (5/20-8/21)<br>
+                                        Frank Porter Graham Child Development Institute
+                                    </h4>
+                                </div>
+                                <div class="card-text">
+                                    <h5 class="responsibilities">
+                                        Responsibilities:
+                                    </h5>
+                                    <p>
+                                    Help to develop and disseminate dialogic reading technical assistance products for diverse families of children with disabilities to support their children’s STEM learning. Contributed to iterative design process for STEM-focused activities in partner “incubator sites”. Products include webinars, tip sheets, and blog posts.  
+                                    </p>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row experience">    
+                        <div class="col py-2">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h4 class="card-title">
+                                        The Targeted Reading Intervention for English Learners (TRI-EL)
+                                    </h4>
+                                    <h4 class="card-title text-muted">
+                                        PI: Dr. Steven Amendum (University of Delaware),
+                                        Co-PI: Dr. Lynne Vernon Feagans (FPG)
+                                        Graduate Research Assistant  (6/16-5/20)
+                                        Frank Porter Graham Child Development Institute
+                                    </h4>
+                                </div>
+                                <div class="card-text">
+                                    <h5 class="responsibilities">
+                                        Responsibilities:
+                                    </h5>
+                                    <p>
+                                        Supported intervention adaptation and implementation for rural teachers of K-2 ELLs, monitored implementation fidelity, coached, conducted data collection and analysis (hierarchical linear modeling), assisted with manuscript development. Experience with SAS, R, and Mplus.
+                                    </p>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row experience">    
+                        <div class="col py-2">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h4 class="card-title">
+                                        The Targeted Reading Intervention
+                                    </h4>
+                                    <h4 class="card-title text-muted">
+                                        PI: Dr. Lynne Vernon Feagans<br>
+                                        Frank Porter Graham Child Development Institute
+                                    </h4>
+                                </div>
+                                <div class="card-text">
+                                    <h5 class="responsibilities">
+                                        Responsibilities:
+                                    </h5>
+                                    <p>
+                                        Assisted with data analysis and manuscript conceptualization and production. Experience with SAS, R, and Mplus.
+                                    </p>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row experience">    
+                        <div class="col py-2">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h4 class="card-title">
+                                        The National Center on Early Childhood, Development Teaching & Learning
+                                    </h4>
+                                    <h4 class="card-title text-muted">
+                                        PI: Dr. Alison Metz
+                                        Co-PI: Dr. Pam Winton
+                                        Graduate Research Assistant 6/16-9/18
+                                        Frank Porter Graham Child Development Institute
+                                    </h4>
+                                </div>
+                                <div class="card-text">
+                                    <h5 class="responsibilities">
+                                        Responsibilities:
+                                    </h5>
+                                    <p>
+                                        Assisted in development and delivery of technical assistance activities and products (webinars, conferences, white papers) for the Head Start Disabilities Inclusion Network (HSDIN), and online Community of Practice (CoP) focused on support for disabilities coordinators in Head Start                                    
+                                    </p>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row experience">    
+                        <div class="col py-2">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h4 class="card-title">
+                                        Exploring Early Language and Executive Function in Deaf Preschoolers with Recent Cochlear Implants
+                                    </h4>
+                                    <h4 class="card-title text-muted">
+                                        PI: Dr. Laura Kuhn
+                                        Bilingual Assessor 6/17-12/17
+                                        Frank Porter Graham Child Development Institute
+                                    </h4>
+                                </div>
+                                <div class="card-text">
+                                    <h5 class="responsibilities">
+                                        Responsibilities:
+                                    </h5>
+                                    <p>
+                                        Scheduled Spanish-speaking families and assisted in piloting the Spanish version of Executive Functioning (EF) Touch battery, a touch screen battery assessing executive functioning for preschoolers ages 4-5 years old.
+                                    </p>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
             </div>
     </section>
     <section id="education" class="home-section wg-publications">
@@ -168,7 +301,7 @@
                 </div>
             </div>
         </section>
-        <section id="publications" class="home-section wg-publications">
+    <section id="publications" class="home-section wg-publications">
             <div class="container">
                 <div class="row">
                      <div class="column-12 col-lg-4 section-heading">
@@ -177,7 +310,7 @@
                 </div>
                 <div class="row">
                     <div class="col-12 col-lg-12">
-                        <ul id="publications">
+                        <ul id="publications" style="list-style-type: none;">
                             <li>
                                 <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=q5krg_8AAAAJ&citation_for_view=q5krg_8AAAAJ:qjMakFHDy7sC"
                                 target="blank" rel="noopener">
@@ -201,8 +334,8 @@
                         
                     </div>
                 </div>
-            </section>
-            <section id="cv" class="home-section wg-cv">
+    </section>
+    <section id="cv" class="home-section wg-cv">
                 <div class="container">
                     <div class="row">
                         <div class="col-12 col-lg-12 section-heading">
@@ -215,5 +348,23 @@
                         </div>
                     </div>
                 </div>
-            </section>
+    </section>
+    <footer class="footer cbg-light text-center text-lg-start">
+        <div class="container">
+            <ul class="nav justify-content-center" id="footerIcons">
+                <li class="nav-link">
+                  <a class="fa fa-envelope fa-2x" href="mailto:sff809@mail.harvard.edu"></a>
+                 </li>
+                <li class="nav-link">
+                            <!--need href here-->
+                     <a class="fa fa-github fa-2x"></a>
+                </li>
+                <li class="nav-link">
+                          <!--need href here-->
+                     <a class="fa fa-twitter fa-2x"></a>
+                 </li>
+            </ul>
+        </div>
+
+    </footer>
 </body>

@@ -1,5 +1,7 @@
 .avatar-circle {
     border-radius: 50%;
+    align-items: center;
+    padding-top: 10px;
 }
 
 /* body {
@@ -12,4 +14,47 @@ section {
 
 #navbarIcons{
     float: right;
+    color:#474747;
+}
+.navbar-brand{
+    color: #474747;
+    
+}
+.blue, .footer{
+    background: #54DEFD;
+    font-family: 'Times New Roman', Times, serif;
+}
+.nav-link{
+    color: #474747;
+}
+#about{
+    
+    background: #FFFBFA;
+    color: #474747;
+    display:flex;
+    align-items: center;
+}
+#profile{
+    position: relative;
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+#experience{
+background: #AAEDFC;
+}
+#educations{
+    background: #FFFBFA;
+}
+#publications{
+
+}
+#cv{
+    background: #FFFBFA;
+}
+.icon{
+    padding-top: 1px;
+    padding-left: 4px;
+
 }
