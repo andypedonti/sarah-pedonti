@@ -58,6 +58,22 @@ background: #FFFBFA;
     padding-left: 4px;
 
 }
-.color{
+.colorExperience{
     border-color: #57A773;
+    border-width: medium;
+    border-radius: 10px;
+    padding: 15px;
+}
+.colorEducation{
+    border-color: #81667A;
+    border-width: medium;
+    border-radius: 10px;
+    padding: 15px;
+}
+.colorPublications{
+    border-color: #414535;
+    border-width: medium;
+    border-radius: 10px;
+    padding: 15px;
+    color: #474747;
 }
