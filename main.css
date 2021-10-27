@@ -10,6 +10,15 @@
 
 section {
     padding-top: 65px;
+    padding-bottom: 50px;
+}
+
+.navbar{
+    position: fixed;
+    background: #80B0C7;
+    top: 0;
+    right: 0;
+    left: 0;
 }
 
 #navbarIcons{
@@ -20,9 +29,10 @@ section {
     color: #474747;
     
 }
-.blue, .footer{
-    background: #54DEFD;
+.footer{
+    background: #80B0C7;
     font-family: 'Times New Roman', Times, serif;
+   
 }
 .nav-link{
     color: #474747;
@@ -44,11 +54,11 @@ section {
 #experience{
 background: #FFFBFA;
 }
-#educations{
+#education{
     background: #FFFBFA;
 }
 #publications{
-
+    background: #FFFBFA;
 }
 #cv{
     background: #FFFBFA;
@@ -77,3 +87,16 @@ background: #FFFBFA;
     padding: 15px;
     color: #474747;
 }
+.colorCV{
+    border-color: #EF767A;
+    border-width: medium;
+    border-radius: 10px;
+    padding: 15px;
+}
+.card{
+    background: #FFFBFA;
+}
+h1, h4, h5, p{
+    color: #006494;
+}
+

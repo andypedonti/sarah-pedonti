@@ -2,49 +2,64 @@
 <head>
   <title>Sarah Pedonti</title>
   <meta charset="utf-8"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&amp;display=swap">
   <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
-    <nav class="navbar fixed-top navbar-expand-lg blue">
-        <span class="navbar-brand" href="#">Sarah Pedonti</span>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#about">Bio </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#experience">Experience</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#education">Education</a>
-            <li class="nav-item">
-                <a class="nav-link" href="#publications">Publications</a>
-            </li>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#cv">CV</a>
-            </li>
-          </ul> 
-        </div>
-        <div class="navIcon">
-            <ul class="collapse navbar-collapse" id="navbarIcons" style="list-style-type: none;">
-                <li class="icon">
-                    <a class="fa fa-envelope fa-2x" href="mailto:sff809@mail.harvard.edu" style="color: #474747"></a>
-                </li>
-                <li class="icon">
-                    <!--need href here-->
-                      <a class="fa fa-github fa-2x" href="https://github.com/sarahpedonti" target="blank" rel="noopener" style="color: #474747"></a>
-                </li>
-                <li class="icon">
-                  <!--need href here-->
-                    <a class="fa fa-twitter fa-2x" href="https://twitter.com/Sff809" target="blank" rel="noopener" style="color: #474747"></a>
-              </li>
-            </ul>
-        </div>
+   
+    <nav class="navbar navbar-expand-lg navbar-light  fixed-top compensate-for-scrollbar">
+        <div class="container">
+            
+                <a class="navbar-brand">Sarah Pedonti</a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#collapsibleNavbar"
+                aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>                    
+            </button>
+            
+            <div class="navbar-collapse  collapse " id="collapsibleNavbar">
+                <ul class="navbar-nav d-md-inline-flex">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#about" data-target="#about">Bio </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experience" data-target="#experience">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#education" data-target="#education">Education</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#publications" data-target="#publications">Publications</a>
+                        </li>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#cv">CV</a>
+                    </li>
+                </ul> 
+            </div>
+
+            
+                <div class="navIcon">
+                    <ul class="collapse navbar-collapse" id="navbarIcons" style="list-style-type: none;">
+                        <li class="icon">
+                            <a class="fa fa-envelope fa-2x" href="mailto:sff809@mail.harvard.edu" style="color: #474747"></a>
+                        </li>
+                        <li class="icon">
+                            <!--need href here-->
+                            <a class="fa fa-github fa-2x" href="https://github.com/sarahpedonti" target="blank" rel="noopener" style="color: #474747"></a>
+                        </li>
+                        <li class="icon">
+                            <!--need href here-->
+                            <a class="fa fa-twitter fa-2x" href="https://twitter.com/Sff809" target="blank" rel="noopener" style="color: #474747"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
       </nav>
       <!-- <span class="js-widget-page d-none"></span> -->
 
@@ -102,13 +117,13 @@
     <section id="experience" class="home-section wg-experience">
         <div class="container">
             <div class="row">
-                 <div class="column-12 col-lg-4 section-heading">
+                 <div class="column-4 col-lg-4 section-heading">
                     <h1>Experience</h1>
                 </div>
-            </div>
-            <div class="col-12 col-lg-12">
-            </div>          
-                <div class="col-12 col-lg-12">
+            <!-- </div> -->
+
+           
+                <div class="col-8 col-lg-8">
                     <div class="row experience">
                         <div class="col py-2">
                             <div class="card colorExperience">
@@ -163,7 +178,7 @@
                             <div class="card colorExperience">
                                 <div class="card-body">
                                     <h4 class="card-title">
-                                        STEMIE Innovation for Inclusion in Early Educationb
+                                        STEMIE Innovation for Inclusion in Early Education
                                     </h4>
                                     <h4 class="card-title text-muted">
                                         PCo-PI: Dr. Chih-Ing Lim<br>
@@ -286,17 +301,17 @@
                     </div>
                 </div>
             </div>
+            </div>
         </div>
     </section>
     <section id="education" class="home-section wg-publications">
         <div class="container">
             <div class="row">
-                 <div class="column-8 col-lg-4 section-heading">
+                 <div class="column-4 col-lg-4 section-heading">
                     <h1>Education</h1>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-12 col-lg-12">
+            
+                <div class="col-8 col-lg-8">
                     <div class="row">
                         <div class="col py-2">
                          <div class="card colorEducation">
@@ -344,12 +359,12 @@
     <section id="publications" class="home-section wg-publications">
             <div class="container">
                 <div class="row">
-                     <div class="column-12 col-lg-4 section-heading">
+                     <div class="column-4 col-lg-4 section-heading">
                         <h1>Publications</h1>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-12 col-lg-12">
+                
+                
+                    <div class="col-8 col-lg-8">
                         <div class="row experience">    
                             <div class="col py-2">
                                 <div class="card colorPublications">
@@ -399,16 +414,18 @@
     <section id="cv" class="home-section wg-cv">
                 <div class="container">
                     <div class="row">
-                        <div class="col-12 col-lg-12 section-heading">
+                        <div class="col-4 col-lg-4 section-heading">
                             <h1>CV </h1>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="card">
-                            <div class="card-body">
-                                <a href="docs/Pedonti_S_CV_2021.docx">CV Click to Download</a>
+                        <div class="col-8 col-lg-8">
+                        <div class="row">
+                            <div class="card colorCV">
+                                <div class="card-body">
+                                    <a href="docs/Pedonti_S_CV_2021.docx" style="color: #006494">CV Click to Download</a>
+                                </div>
                             </div>
                         </div>
+                    </div>
                     </div>
                 </div>
     </section>
