@@ -20,7 +20,7 @@ padding: 40px;
 }
 
 .navbar{
-    position: fixed;
+    
     background: #80B0C7;
     top: 0;
     right: 0;
@@ -102,7 +102,7 @@ background: #FFFBFA;
 .card{
     background: #FFFBFA;
 }
-h1, h4, h5, p{
+h1, h4, h5, h3, p{
     color: #006494;
 }
 
